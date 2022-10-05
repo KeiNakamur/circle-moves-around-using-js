@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: rgba(0, 38, 255, 0.571);
+    overflow: hidden;
+}
+
+.container {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+
+h2 {
+    font-size: 25px;
+    color: #fff;
+    position: relative;
+    z-index: 1;
+}
+
+.block {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: greenyellow;
+    box-shadow: 10px 10px 50px rgba(0,0,0,0.2);
+    
+}
